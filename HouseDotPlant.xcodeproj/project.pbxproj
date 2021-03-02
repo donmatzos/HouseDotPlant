@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BF3E06053440304D9EAE810 /* Pods_HouseDotPlant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB1FC50C3C61291B537064A /* Pods_HouseDotPlant.framework */; };
+		F232CC8B25E3BCE100BBAE08 /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = F232CC8A25E3BCE100BBAE08 /* CalendarKit */; };
+		F232CC8E25E3BE3900BBAE08 /* HomeMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232CC8D25E3BE3900BBAE08 /* HomeMenuController.swift */; };
+		F232CC9625E3C5BD00BBAE08 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F232CC9525E3C5BD00BBAE08 /* CalendarController.swift */; };
+		F2B48FB825E5651900397BCD /* PlantAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B48FB725E5651900397BCD /* PlantAddController.swift */; };
+		F2B48FBD25E65C2700397BCD /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = F2B48FBC25E65C2700397BCD /* TinyConstraints */; };
+		F2B48FC025E81DDE00397BCD /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B48FBF25E81DDE00397BCD /* PlantDetailView.swift */; };
+		F2B83C5625D669CE009E8FF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83C5525D669CE009E8FF1 /* AppDelegate.swift */; };
+		F2B83C5825D669CE009E8FF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83C5725D669CE009E8FF1 /* SceneDelegate.swift */; };
+		F2B83C5A25D669CE009E8FF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B83C5925D669CE009E8FF1 /* ViewController.swift */; };
+		F2B83C5D25D669CE009E8FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B83C5B25D669CE009E8FF1 /* Main.storyboard */; };
+		F2B83C6025D669CE009E8FF1 /* HouseDotPlant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2B83C5E25D669CE009E8FF1 /* HouseDotPlant.xcdatamodeld */; };
+		F2B83C6225D669D1009E8FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B83C6125D669D1009E8FF1 /* Assets.xcassets */; };
+		F2B83C6525D669D1009E8FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B83C6325D669D1009E8FF1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AF11E69D868444BD7FA227E /* Pods-HouseDotPlant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseDotPlant.release.xcconfig"; path = "Target Support Files/Pods-HouseDotPlant/Pods-HouseDotPlant.release.xcconfig"; sourceTree = "<group>"; };
+		5E2F60741D2BB30DF2E35C8A /* Pods-HouseDotPlant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseDotPlant.debug.xcconfig"; path = "Target Support Files/Pods-HouseDotPlant/Pods-HouseDotPlant.debug.xcconfig"; sourceTree = "<group>"; };
+		BCB1FC50C3C61291B537064A /* Pods_HouseDotPlant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseDotPlant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F232CC8D25E3BE3900BBAE08 /* HomeMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenuController.swift; sourceTree = "<group>"; };
+		F232CC9525E3C5BD00BBAE08 /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
+		F2B48FB725E5651900397BCD /* PlantAddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantAddController.swift; sourceTree = "<group>"; };
+		F2B48FBF25E81DDE00397BCD /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
+		F2B83C5225D669CE009E8FF1 /* HouseDotPlant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseDotPlant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B83C5525D669CE009E8FF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2B83C5725D669CE009E8FF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2B83C5925D669CE009E8FF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2B83C5C25D669CE009E8FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2B83C5F25D669CE009E8FF1 /* HouseDotPlant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HouseDotPlant.xcdatamodel; sourceTree = "<group>"; };
+		F2B83C6125D669D1009E8FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2B83C6425D669D1009E8FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2B83C6625D669D1009E8FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2B83C4F25D669CE009E8FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F232CC8B25E3BCE100BBAE08 /* CalendarKit in Frameworks */,
+				5BF3E06053440304D9EAE810 /* Pods_HouseDotPlant.framework in Frameworks */,
+				F2B48FBD25E65C2700397BCD /* TinyConstraints in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		486139DFFA128F04742FFC3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E2F60741D2BB30DF2E35C8A /* Pods-HouseDotPlant.debug.xcconfig */,
+				2AF11E69D868444BD7FA227E /* Pods-HouseDotPlant.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DFB2D55215DE12928F37A224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCB1FC50C3C61291B537064A /* Pods_HouseDotPlant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2B83C4925D669CE009E8FF1 = {
+			isa = PBXGroup;
+			children = (
+				F2B83C5425D669CE009E8FF1 /* HouseDotPlant */,
+				F2B83C5325D669CE009E8FF1 /* Products */,
+				486139DFFA128F04742FFC3E /* Pods */,
+				DFB2D55215DE12928F37A224 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2B83C5325D669CE009E8FF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2B83C5225D669CE009E8FF1 /* HouseDotPlant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2B83C5425D669CE009E8FF1 /* HouseDotPlant */ = {
+			isa = PBXGroup;
+			children = (
+				F2B83C5525D669CE009E8FF1 /* AppDelegate.swift */,
+				F2B83C5725D669CE009E8FF1 /* SceneDelegate.swift */,
+				F2B83C5925D669CE009E8FF1 /* ViewController.swift */,
+				F2B83C5B25D669CE009E8FF1 /* Main.storyboard */,
+				F232CC8D25E3BE3900BBAE08 /* HomeMenuController.swift */,
+				F2B48FB725E5651900397BCD /* PlantAddController.swift */,
+				F2B83C6125D669D1009E8FF1 /* Assets.xcassets */,
+				F2B83C6325D669D1009E8FF1 /* LaunchScreen.storyboard */,
+				F2B83C6625D669D1009E8FF1 /* Info.plist */,
+				F2B83C5E25D669CE009E8FF1 /* HouseDotPlant.xcdatamodeld */,
+				F232CC9525E3C5BD00BBAE08 /* CalendarController.swift */,
+				F2B48FBF25E81DDE00397BCD /* PlantDetailView.swift */,
+			);
+			path = HouseDotPlant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2B83C5125D669CE009E8FF1 /* HouseDotPlant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B83C6925D669D1009E8FF1 /* Build configuration list for PBXNativeTarget "HouseDotPlant" */;
+			buildPhases = (
+				189C297D614604252CE0CFBB /* [CP] Check Pods Manifest.lock */,
+				F2B83C4E25D669CE009E8FF1 /* Sources */,
+				F2B83C4F25D669CE009E8FF1 /* Frameworks */,
+				F2B83C5025D669CE009E8FF1 /* Resources */,
+				8F330333989DC3537026A866 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseDotPlant;
+			packageProductDependencies = (
+				F232CC8A25E3BCE100BBAE08 /* CalendarKit */,
+				F2B48FBC25E65C2700397BCD /* TinyConstraints */,
+			);
+			productName = HouseDotPlant;
+			productReference = F2B83C5225D669CE009E8FF1 /* HouseDotPlant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2B83C4A25D669CE009E8FF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F2B83C5125D669CE009E8FF1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F2B83C4D25D669CE009E8FF1 /* Build configuration list for PBXProject "HouseDotPlant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2B83C4925D669CE009E8FF1;
+			packageReferences = (
+				F232CC8925E3BCE100BBAE08 /* XCRemoteSwiftPackageReference "CalendarKit" */,
+				F2B48FBB25E65C2700397BCD /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+			);
+			productRefGroup = F2B83C5325D669CE009E8FF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2B83C5125D669CE009E8FF1 /* HouseDotPlant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2B83C5025D669CE009E8FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B83C6525D669D1009E8FF1 /* LaunchScreen.storyboard in Resources */,
+				F2B83C6225D669D1009E8FF1 /* Assets.xcassets in Resources */,
+				F2B83C5D25D669CE009E8FF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		189C297D614604252CE0CFBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HouseDotPlant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F330333989DC3537026A866 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HouseDotPlant/Pods-HouseDotPlant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HouseDotPlant/Pods-HouseDotPlant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HouseDotPlant/Pods-HouseDotPlant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2B83C4E25D669CE009E8FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B48FB825E5651900397BCD /* PlantAddController.swift in Sources */,
+				F232CC8E25E3BE3900BBAE08 /* HomeMenuController.swift in Sources */,
+				F232CC9625E3C5BD00BBAE08 /* CalendarController.swift in Sources */,
+				F2B83C6025D669CE009E8FF1 /* HouseDotPlant.xcdatamodeld in Sources */,
+				F2B83C5A25D669CE009E8FF1 /* ViewController.swift in Sources */,
+				F2B48FC025E81DDE00397BCD /* PlantDetailView.swift in Sources */,
+				F2B83C5625D669CE009E8FF1 /* AppDelegate.swift in Sources */,
+				F2B83C5825D669CE009E8FF1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2B83C5B25D669CE009E8FF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B83C5C25D669CE009E8FF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2B83C6325D669D1009E8FF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B83C6425D669D1009E8FF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2B83C6725D669D1009E8FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2B83C6825D669D1009E8FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2B83C6A25D669D1009E8FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2F60741D2BB30DF2E35C8A /* Pods-HouseDotPlant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T966VU2QWZ;
+				INFOPLIST_FILE = HouseDotPlant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SUI-Sem3.HouseDotPlant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2B83C6B25D669D1009E8FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF11E69D868444BD7FA227E /* Pods-HouseDotPlant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T966VU2QWZ;
+				INFOPLIST_FILE = HouseDotPlant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SUI-Sem3.HouseDotPlant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2B83C4D25D669CE009E8FF1 /* Build configuration list for PBXProject "HouseDotPlant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B83C6725D669D1009E8FF1 /* Debug */,
+				F2B83C6825D669D1009E8FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B83C6925D669D1009E8FF1 /* Build configuration list for PBXNativeTarget "HouseDotPlant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B83C6A25D669D1009E8FF1 /* Debug */,
+				F2B83C6B25D669D1009E8FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F232CC8925E3BCE100BBAE08 /* XCRemoteSwiftPackageReference "CalendarKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/richardtop/CalendarKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		F2B48FBB25E65C2700397BCD /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F232CC8A25E3BCE100BBAE08 /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F232CC8925E3BCE100BBAE08 /* XCRemoteSwiftPackageReference "CalendarKit" */;
+			productName = CalendarKit;
+		};
+		F2B48FBC25E65C2700397BCD /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2B48FBB25E65C2700397BCD /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		F2B83C5E25D669CE009E8FF1 /* HouseDotPlant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2B83C5F25D669CE009E8FF1 /* HouseDotPlant.xcdatamodel */,
+			);
+			currentVersion = F2B83C5F25D669CE009E8FF1 /* HouseDotPlant.xcdatamodel */;
+			path = HouseDotPlant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2B83C4A25D669CE009E8FF1 /* Project object */;
+}
